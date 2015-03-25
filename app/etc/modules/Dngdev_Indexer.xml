@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dngdev_Indexer>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_CatalogInventory />
+            </depends>
+        </Dngdev_Indexer>
+    </modules>
+</config>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category Dngdev
+ * @package  Dngdev_Indexer
+ * @author   Daniel Niedergesäß <daniel.niedergesaess@gmail.com>
+ */
+-->
+<config>
+    <modules>
+        <Dngdev_Indexer>
+            <version>1.0.0</version>
+        </Dngdev_Indexer>
+    </modules>
+    <global>
+        <models>
+            <dngdev_indexer>
+                <class>Dngdev_Indexer_Model</class>
+            </dngdev_indexer>
+            <cataloginventory_resource>
+                <rewrite>
+                    <indexer_stock>Dngdev_Indexer_Model_Resource_Indexer_Stock</indexer_stock>
+                </rewrite>
+            </cataloginventory_resource>
+            <catalog_resource>
+                <rewrite>
+                    <product_indexer_eav_source>Dngdev_Indexer_Model_Resource_Product_Indexer_Eav_Source</product_indexer_eav_source>
+                </rewrite>
+            </catalog_resource>
+        </models>
+    </global>
+</config>
