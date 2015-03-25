@@ -9,18 +9,6 @@
  */
 class Dngdev_Indexer_Model_Resource_Product_Indexer_Price extends Mage_Catalog_Model_Resource_Product_Indexer_Price
 {
-
-    /**
-     * Rebuild all index data
-     *
-     * @return Mage_Catalog_Model_Resource_Product_Indexer_Price
-     */
-    public function reindexAll()
-    {
-        var_dump('here we go');
-        return parent::reindexAll();
-    }
-
     /**
      * Clean up temporary index table
      *
