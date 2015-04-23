@@ -25,6 +25,7 @@
             <catalog_resource>
                 <rewrite>
                     <product_indexer_eav_source>Dngdev_Indexer_Model_Resource_Product_Indexer_Eav_Source</product_indexer_eav_source>
+                    <product_indexer_price>Dngdev_Indexer_Model_Resource_Product_Indexer_Price</product_indexer_price>
                 </rewrite>
             </catalog_resource>
         </models>
